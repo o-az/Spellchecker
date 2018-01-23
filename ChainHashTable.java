@@ -1,5 +1,3 @@
-package ass7;
-
 /******************************************************************************
  *  A symbol table implemented with a separate chaining hash table.
  *
