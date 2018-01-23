@@ -1,4 +1,3 @@
-package ass7.hw2;
 /******************************************************************************
  *  A symbol table implemented with a separate chaining hash table.
  *
@@ -8,7 +7,6 @@ package ass7.hw2;
  ******************************************************************************/
 
 import javafx.util.Pair;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
