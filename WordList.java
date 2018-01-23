@@ -2,9 +2,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Collections;
 import java.util.List;
-
-import ass7.hw2.SeparateChainHashing;
-
+import SeparateChainHashing;
 
 public class WordList {
 	private SeparateChainHashing<String, String> hashTable = new SeparateChainHashing<String, String>();
