@@ -4,7 +4,6 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 
-
 public class SpellCheckVersion2 {
 	private static final String DICT_NAME = "myDict.dat";
 	WordList wordList = new WordList();
@@ -126,6 +125,5 @@ public class SpellCheckVersion2 {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-	}
-	
+	}	
 }
