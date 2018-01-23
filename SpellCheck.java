@@ -3,7 +3,6 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-
 public class SpellCheck {
 	WordList wordList = new WordList();
 
@@ -53,6 +52,5 @@ public class SpellCheck {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-	}
-	
+	}	
 }
