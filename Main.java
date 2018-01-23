@@ -1,5 +1,3 @@
-package ass7.hw2;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -63,7 +61,5 @@ public class Main {
         System.out.println("[ContainsKey] OK. All expected keys inside table.");
         System.out.println("\nResult table items:");
         for (String key : table.keys() ) System.out.println("Key=" + key + ", value=" + table.get(key));
-
-
     }
 }
